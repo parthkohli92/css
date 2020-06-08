@@ -1,0 +1,140 @@
+body {
+  ;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  color: #f37121;
+  border-style: solid dotted;
+  width: 15%;
+  background-color: #fbc687;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 90px;
+  color: #d92027;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #d92027;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #fbc687;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #fbc687;
+}
+
+.bottom-container {
+  background-color: #ed6663;
+  color: #d92027;
+  position: relative;
+  padding-top: 35px;
+  margin-top: 35px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.webdev-icon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.python-icon {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.pkimg {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 25%;
+}
+
+.webdv {
+  font-weight: normal;
+  color: #d92027;
+  font-size: 15px;
+  font-style: oblique;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 30px auto 40px;
+  line-height: 2;
+}
+
+.btn {
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px #000000;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top, #A35CA0, #EAB9C9);
+  background: -ms-linear-gradient(top, #A35CA0, #EAB9C9);
+  background: -webkit-gradient(linear, left top, left bottom, from(#A35CA0), to(#EAB9C9));
+  background: -moz-linear-gradient(top, #A35CA0, #EAB9C9);
+}
+
+.btn:hover {
+  color: #000000 !important;
+  background: #468CCF;
+  background: linear-gradient(top, #F63D3D, #811616);
+  background: -ms-linear-gradient(top, #F63D3D, #811616);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F63D3D), to(#811616));
+  background: -moz-linear-gradient(top, #F63D3D, #811616);
+}
+
+a {
+  color: #fbc687;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d92027;
+}
